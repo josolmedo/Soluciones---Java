@@ -2,7 +2,7 @@ public class Solucion {
     public static int EncuentraElNumeroMasCercanoACero(int[] nums) {
         int valorActual;
         int minimo = nums[0];
-        for(int i = 0; i<nums.length; i++){
+        for(int i = 0; i < nums.length; i++){
             valorActual = nums[i];           
             if(FuncionesUtiles.valorAbsoluto(valorActual) < FuncionesUtiles.valorAbsoluto(minimo)) {//CASO 1
                 minimo = valorActual;
@@ -18,18 +18,3 @@ public class Solucion {
     }
     
 }
-
-/*For(numero: nums){
-    minimo = FuncionesUtiles.valorAbsoluto(minimo);
-    valorActual = FuncionesUtiles.valorAbsoluto(valorActual);
-    if(valorActual < minimo){
-        minimo = valorActual
-    }
-    else if(valorActua)
-
-
-
-
-
-
-*/
