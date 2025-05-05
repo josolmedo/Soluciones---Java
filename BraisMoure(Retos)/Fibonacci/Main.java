@@ -17,5 +17,7 @@ public class Main{
 
         System.out.println("\nFibonacci Iterativo: \n");
         Fibonacci.fibonacciIterativoImpresion(numero);
+
+        entrada.close()
     }
 }
